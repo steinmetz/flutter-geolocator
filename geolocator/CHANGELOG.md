@@ -1,3 +1,7 @@
+## 8.1.0
+
+- Added in background support for Android and iOS to keep the location stream alive if the app is minimized while the location stream is active.
+
 ## 8.0.5
 - Fix code coverage issues by adding iOS specific test for getCurrentPosition
 
@@ -498,4 +502,3 @@ Complete rebuild of the geolocator plugin. Please note the this version contains
 ## 0.0.1
 
 - Initial release
-
