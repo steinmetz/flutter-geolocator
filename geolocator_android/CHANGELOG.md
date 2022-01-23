@@ -1,3 +1,9 @@
+## 3.1.0
+
+- Added a new option to Android settings that will allow us to configure the foreground service notification settings
+- Added wake lock and WiFI lock capabilities to the Android service
+- Added an Android service to retrieve location updates. This allows us to make the service a foreground service which will stay alive and continue processing location updates if if the application is moved into the background.
+
 ## 3.0.3
 
 - Added a default `intervalDuration` value of 5000ms to prevent the `getCurrentPosition` method to return a cached Location.
@@ -57,4 +63,3 @@
 ## 1.0.0
 
 - Initial open source release.
-
